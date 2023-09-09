@@ -2,6 +2,11 @@
 
 namespace Engine.Models.Buffs
 {
+  /// <summary>
+  /// TODO: Not all buffs are stat modifiers. There are also
+  /// other type of buffs - attack modifiers and buffs that enable
+  /// new abilities. And they might be mixed.
+  /// </summary>
   public abstract class Buff : IStatsModifier, IEquatable<Buff>
   {
     protected readonly string _identifier;
