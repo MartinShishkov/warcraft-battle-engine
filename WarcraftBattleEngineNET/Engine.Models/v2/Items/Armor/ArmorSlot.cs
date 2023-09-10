@@ -1,6 +1,6 @@
-﻿namespace Engine.Models.Items
+﻿namespace Engine.Models.v2.Items.Armor
 {
-  public enum ItemSlot
+  public enum ArmorSlot
   {
     Head,
     Shoulders,
@@ -14,8 +14,5 @@
     Ring2,
     Trinket1,
     Trinket2,
-    MainHand,
-    OffHand,
-    BothHands
   }
 }
